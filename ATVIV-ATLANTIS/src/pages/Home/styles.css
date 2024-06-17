@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.text{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #efb810;
+}
+
+.text h2{
+    width: 80%;
+}
+
+.text-box{
+    width: 45%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.wrapper{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.listagem, 
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+} 
+
+.mb-2{
+    margin-top: 25px;
+}
+
+.home-main {
+    background-image: url('/src/pages/Home/img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh; /* Garante que o main ocupe toda a altura da viewport */
+    display: flex; /* Para alinhar os elementos verticalmente */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: center; /* Alinha os elementos verticalmente */
+    align-items: center; /* Alinha os elementos horizontalmente */
+    color: white; /* Cor do texto para contraste */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+    opacity: 60%;
+}
