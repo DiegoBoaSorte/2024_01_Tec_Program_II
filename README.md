@@ -7,7 +7,7 @@ Digitar os seguintes comandos no cmd:
 ```
   git clone https://github.com/DiegoBoaSorte/2024_01_Tec_Program_II.git
 
-  cd /2024_01_Tec_Program_II
+  cd /ATVI
 
   code .
 
